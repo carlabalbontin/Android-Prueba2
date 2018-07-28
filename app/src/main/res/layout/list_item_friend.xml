@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/bg_white_bottomline_grey"
+    android:id="@+id/friendItem">
+
+    <ImageView
+        android:id="@+id/friendImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@mipmap/thumb_dog"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/card_title"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/icon_right"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/card_title"/>
+
+    <TextView
+        android:id="@+id/friendNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cardTitle"
+        android:layout_toRightOf="@id/friendImage"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/friendDescriptionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/friendImage"
+        android:layout_below="@id/friendNameTv"
+        android:paddingLeft="16dp"
+        android:paddingRight="24dp"/>
+
+
+
+</RelativeLayout>

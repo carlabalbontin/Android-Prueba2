@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="friends_type">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Human</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Amigos de Trotsky</string>
+    <string name="action_settings">Settings</string>
+    <string name="card_title">This is a Title</string>
+    <string name="card_text">This is a text used as an example to see how the cards work.</string>
+    <string name="friend_name">Canela</string>
+    <string name="friend_description">Vive en mi edificio y le gusta perseguir una pelota chica.</string>
+    <string name="new_friend_name">Nombre</string>
+    <string name="new_friend_type">Cómo se define</string>
+    <string name="new_friend_description">Descripción</string>
+    <string name="new_friend_phone_number">Su número de teléfono</string>
+    <string name="new_friend_address">Dirección</string>
+    <string name="new_friend_save">Guardar a mi nuevo amigo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

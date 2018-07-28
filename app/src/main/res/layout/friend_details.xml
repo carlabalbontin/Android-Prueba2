@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/friendDetailsImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/full_dog"/>
+
+    <TextView
+        android:id="@+id/friendDetailsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cardTitle"
+        android:layout_toEndOf="@+id/friendDetailsImage"
+        android:text="@string/friend_name"
+        android:paddingTop="32dp"/>
+
+
+    <TextView
+        android:id="@+id/friendDetailsPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/friendDetailsImage"
+        android:layout_below="@+id/friendDetailsName"
+        style="@style/cardText"/>
+
+    <TextView
+        android:id="@+id/friendDetailsAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/friendDetailsImage"
+        android:layout_below="@+id/friendDetailsPhoneNumber"
+        style="@style/cardText"/>
+
+    <TextView
+        android:id="@+id/friendDetailsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friend_description"
+        android:layout_below="@+id/friendDetailsImage"
+        style="@style/cardText"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/deleteFriendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_primary"
+        android:textColor="@android:color/white"
+        android:text="Ya no somos amigos!"
+        android:layout_below="@+id/friendDetailsDescription"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
